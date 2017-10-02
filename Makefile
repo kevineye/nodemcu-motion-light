@@ -4,8 +4,7 @@ SRC_FILES := \
     lib/log.lua \
     lib/mqtt-connect.lua \
     lib/ready.lua \
-    lib/sensors.lua \
-    lib/sensors-read.lua \
+    lib/sensors-simple-light.lua \
     lib/motion.lua \
     lib/telnet.lua \
     lib/wifi-connect.lua \

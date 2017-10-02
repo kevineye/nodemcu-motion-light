@@ -11,10 +11,7 @@ local app = {}
 function app.run()
     require 'telnet'
     require 'mqtt-connect'
-    require 'sensors'
-    sensors.BME280_PIN_SCL      = nil
-    sensors.BME280_PIN_SDA      = nil
-    sensors.DHT_PIN             = nil
+    require 'sensors-simple-light'
     sensors.LIGHT_PIN           = 0
     sensors.LIGHT_REVERSE       = true
     require 'motion'
