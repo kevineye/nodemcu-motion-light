@@ -11,7 +11,7 @@ local app = {}
 function app.run()
     require 'telnet'
     require 'mqtt-connect'
-    require 'sensors-simple-light'
+    local sensors = require 'sensors-simple-light'
     sensors.LIGHT_PIN           = 0
     sensors.LIGHT_REVERSE       = true
     require 'motion'
